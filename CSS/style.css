@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent
+{
+    color: white;
+    position: relative;
+    background-image: url(../images/Wallpaper.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100vw 100vh;
+}
+.child1
+{
+    margin: 0;
+    padding: 0px 50px;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 5%;
+    left:10%;
+}
+.one
+{
+    opacity: .4;
+    position: absolute;
+    top: 3%;
+    left: 0%;
+}
+.child2
+{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+.head
+{
+    margin-right: 50px;
+}
+h1{
+    text-align: start;
+    margin-top: 40px;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para
+{
+    width:100%;
+    position:absolute;
+    margin-top: 20px;
+    line-height: 30px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid white;
+}
+.footer
+{
+    position:absolute;
+    top: 75%;
+    right: 10%;
+   
+}
+.foot{
+    margin-left: 70px;
+    font-size: 10px;
+    line-height: 20px;
+}
+.foot2{
+    margin-right: 60px;
+    font-size: 25px;
+}
